@@ -27,14 +27,13 @@
 
 #define USBD_STRING_MANUFACTURER_IX  0x01
 #define USBD_STRING_MANUFACTURER \
-	30,           /* length of descriptor (? bytes)   */\
+	28,           /* length of descriptor (? bytes)   */\
 	0x03,         /* descriptor type                  */\
-	'M', 0x00,    /* Define Unicode String "Nordic Semiconductor  */\
-	'i', 0x00, \
-	'r', 0x00, \
-	'a', 0x00, \
-	'g', 0x00, \
+	'B', 0x00,    /* Define Unicode String "Nordic Semiconductor  */\
+	'l', 0x00, \
+	'u', 0x00, \
 	'e', 0x00, \
+	'S', 0x00, \
 	' ', 0x00, \
 	'T', 0x00, \
 	'o', 0x00, \
@@ -46,17 +45,13 @@
 
 #define USBD_STRING_PRODUCT_IX  0x02
 #define USBD_STRING_PRODUCT \
-	23,           /* length of descriptor (? bytes)         */\
+	12,           /* length of descriptor (? bytes)         */\
 	0x03,         /* descriptor type                        */\
 	'B', 0x00,    /* generic unicode string for all devices */\
-	'u', 0x00, \
-	't', 0x00, \
-	't', 0x00, \
-	'e', 0x00, \
-	'R', 0x00, \
-	'F', 0x00, \
 	'l', 0x00, \
-	'y', 0x00
+	'u', 0x00, \
+	'e', 0x00, \
+	'X', 0x00
 
 #define USBD_STRING_SERIAL_IX  0x00
 
