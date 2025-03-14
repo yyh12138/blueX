@@ -3,7 +3,6 @@ Custom firmware for PCA10059 NRF52840 Dongle (from Nordic SemiConductors) and nR
 
 It is forked from:
 
-* Romain Cayre, Florent Galtier, Guillaume Auriol, Vincent Nicomette, Mohamed Kaâniche, et al.. [InjectaBLE : injection de trafic malveillant dans une connexion Bluetooth Low Energy](https://hal.laas.fr/hal-03221143). *Symposium sur la sécurité des technologies de l'information et des communications (SSTIC 2021)*, Jun 2021, Rennes (en ligne), France. **\[fr\]**
 * Romain Cayre, Florent Galtier, Guillaume Auriol, Vincent Nicomette, Mohamed Kaâniche, et al.. [InjectaBLE: Injecting malicious traffic into established Bluetooth Low Energy connections](https://hal.laas.fr/hal-03193297). *IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)*, Jun 2021, Taipei (virtual), Taiwan. **\[en\]**
 
 ## Flashing the pre-compiled firmware
@@ -22,7 +21,7 @@ The dongle should now be detected by your operating system:
 ```
 $ lsusb
 [...]
-Bus 001 Device 039: ID 5a17:0000 Mirage Toolkit ButteRFly
+Bus 001 Device 039: ID 5a17:0000 BlueS Toolkit BlueX
 [...]
 ```
 
