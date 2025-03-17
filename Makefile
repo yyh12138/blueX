@@ -2,7 +2,7 @@ PROJECT_NAME     := injectable
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := build
 DIST_DIRECTORY 	 := dist
-SDK_ROOT		 := ~/nRF5_SDK_17.1.0_ddde560
+SDK_ROOT	 := ~/nRF5_SDK_17.1.0_ddde560
 
 
 ifeq ($(PLATFORM),)
@@ -56,7 +56,7 @@ endif
 ifeq ($(PLATFORM),BOARD_MDK_DONGLE)
     LINKER_FILE := config/mdk-dongle/mdk-dongle.ld
     CONF_DIR := config/mdk-dongle
-    MDK_MOUNTPOINT := $(shell mount | grep MDK-DONGLE | awk '{print $$3}')
+    MDK_MOUNTPOINT := $(shell mount | grep UF2BOOT | awk '{print $$3}')
     
 	# C flags common to all targets
 	CFLAGS += $(OPT)

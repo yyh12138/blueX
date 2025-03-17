@@ -644,7 +644,7 @@ bool BLEController::inject() {
 	return false;
 }
 
-void sendBLEAdv() {
+void BLEController::sendBLEAdv() {
 	uint8_t *payload = (uint8_t *)malloc(sizeof(uint8_t) * this->attackStatus.size);
 	for (size_t i=0;i<this->attackStatus.size;i++) payload[i] = this->attackStatus.payload[i];
 	this->setChannel(37);
