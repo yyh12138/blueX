@@ -1,6 +1,6 @@
 build/nrf52840_xxaa/nrf_sortlist.c.o: \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/sortlist/nrf_sortlist.c \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_common.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/sortlist/nrf_sortlist.c \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_common.h \
  /usr/local/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h \
  /usr/local/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h \
  /usr/local/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h \
@@ -23,40 +23,40 @@ build/nrf52840_xxaa/nrf_sortlist.c.o: \
  /usr/local/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/cdefs.h \
  /usr/local/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/string.h \
  config/mdk-dongle/sdk_config.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nordic_common.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/compiler_abstraction.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_os.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_errors.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/app_util.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52840.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/core_cm4.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_version.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_compiler.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_gcc.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/mpu_armv7.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/system_nrf52840.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52840_bitfields.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf51_to_nrf52840.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52_to_nrf52840.h \
- /root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/compiler_abstraction.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_macros.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nrf_assert.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/sortlist/nrf_sortlist.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nrf_assert.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/experimental_section_vars/nrf_section.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nordic_common.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/strerror/nrf_strerror.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_errors.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/src/nrf_log_internal.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/app_util.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_instance.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_types.h \
- /root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_types.h
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nordic_common.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/compiler_abstraction.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_os.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_errors.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/app_util.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52840.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/core_cm4.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_version.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_compiler.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_gcc.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/mpu_armv7.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/system_nrf52840.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52840_bitfields.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf51_to_nrf52840.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52_to_nrf52840.h \
+ /root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/compiler_abstraction.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_macros.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nrf_assert.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/sortlist/nrf_sortlist.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nrf_assert.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/experimental_section_vars/nrf_section.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nordic_common.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/strerror/nrf_strerror.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_errors.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/src/nrf_log_internal.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/app_util.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_instance.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_types.h \
+ /root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_types.h
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_common.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_common.h:
 
 /usr/local/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h:
 
@@ -102,66 +102,66 @@ build/nrf52840_xxaa/nrf_sortlist.c.o: \
 
 config/mdk-dongle/sdk_config.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nordic_common.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nordic_common.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/compiler_abstraction.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/compiler_abstraction.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_os.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_os.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_errors.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_errors.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/drivers_nrf/nrf_soc_nosd/nrf_error.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/drivers_nrf/nrf_soc_nosd/nrf_error.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/app_util.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/app_util.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52840.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52840.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/core_cm4.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/core_cm4.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_version.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_version.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_compiler.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_compiler.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/cmsis_gcc.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/cmsis_gcc.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/toolchain/cmsis/include/mpu_armv7.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/toolchain/cmsis/include/mpu_armv7.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/system_nrf52840.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/system_nrf52840.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52840_bitfields.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52840_bitfields.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf51_to_nrf52840.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf51_to_nrf52840.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/nrf52_to_nrf52840.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/nrf52_to_nrf52840.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//modules/nrfx/mdk/compiler_abstraction.h:
+/root/nRF5_SDK_17.1.0_ddde560/modules/nrfx/mdk/compiler_abstraction.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_macros.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_macros.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nrf_assert.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nrf_assert.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/sortlist/nrf_sortlist.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/sortlist/nrf_sortlist.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nrf_assert.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nrf_assert.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/experimental_section_vars/nrf_section.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/experimental_section_vars/nrf_section.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/nordic_common.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/nordic_common.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/strerror/nrf_strerror.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/strerror/nrf_strerror.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/sdk_errors.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/sdk_errors.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/src/nrf_log_internal.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/src/nrf_log_internal.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/util/app_util.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/util/app_util.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_instance.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_instance.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_types.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_types.h:
 
-/root/nRF5_SDK_17.1.0_ddde560//components/libraries/log/nrf_log_types.h:
+/root/nRF5_SDK_17.1.0_ddde560/components/libraries/log/nrf_log_types.h:
