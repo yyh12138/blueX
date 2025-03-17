@@ -1,9 +1,8 @@
-PROJECT_NAME     := injectable
+PROJECT_NAME     := BlueX
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := build
 DIST_DIRECTORY 	 := dist
-SDK_ROOT	 := ~/nRF5_SDK_17.1.0_ddde560
-
+SDK_ROOT	 := $(HOME)/nRF5_SDK_17.1.0_ddde560
 
 ifeq ($(PLATFORM),)
     PLATFORM = BOARD_MDK_DONGLE
